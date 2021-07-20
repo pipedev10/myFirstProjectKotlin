@@ -13,6 +13,12 @@ fun main(args: Array<String>) {
         println("nuestros colores son $this")
         println("esta lista tiene una cantidad de colores $size")
     }
+
+    val family = listOf("Felipe", "Isabel", "Alberto", "Matias")
+    with(family) {
+        println("Cual es tu grupo familiar $this")
+        println("cuantas personas son en tu Familia: $size")
+    }
 }
 
 
